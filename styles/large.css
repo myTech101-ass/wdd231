@@ -101,8 +101,8 @@ section img {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;  Two columns
-    grid-template-rows: auto auto auto; Two rows: top row auto, bottom takes remaining space
+    grid-template-columns: 1fr 1fr;/* 1fr 1fr;  Two columns */
+    grid-template-rows: auto;/*auto auto auto; Two rows: top row auto, bottom takes remaining space */
     gap: 20px;
     padding: 20px;
 }
